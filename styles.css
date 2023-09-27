@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Play&family=Roboto&display=swap');
+
+/* Body */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+/* Top Bar */
+.top-bar{
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.one{
+    width: 500px;
+    margin-left: -18em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top-bar  a,svg{
+    font-size: 10px;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.contactus{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.6875em;
+
+    
+}
+
+/* Navigation */
+nav{
+    width: 1000px;
+    padding-bottom: 10px;
+    padding-top: 0.9%;
+    font-size: small;
+    font-size: 13px;
+    font-weight:800;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav > img{
+
+    margin-left: 5.5%;
+}
+nav a,svg{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+nav > a{
+    margin-top: 0.1%;
+}
+
+/* Search Bar */
+.searchdiv{
+    margin-top: -0.3%;
+    display: flex;
+    margin-left: 20%;
+}
+
+#searchbar{
+    border-color: transparent;
+    background-color: #EAEAEA;
+    font-size:10px;
+    width: 200px;
+    font-size: 10px;
+    height:25px ;
+}
+.form {
+    position: relative;
+    border-radius:20px ;
+    background-color: #EAEAEA;
+}
+/* Seperator */
+.seperator {
+    margin-right: 40px;
+    height: 20px;
+    width: 1px;
+    background: rgb(97, 95, 95);
+
+}
+
+
+/* Login Div */
+.logindiv{
+    display: flex;
+    min-width: 150px;
+    justify-content: space-evenly;
+}
+
+#india{
+ margin-top: -8px;   
+}
+
+.stack1{
+    margin-left: 4rem;
+    display: flex;
+    width:500px;
+    justify-content: space-evenly;
+}
+
+.stack2{
+    display: flex;
+    width: 600px;
+}
+
+.categories{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub > a{
+    font-size: 17px;
+    color: black;
+        text-decoration: none;
+}
+.sub{
+    display: flex;
+    width: 1000px;
+    justify-content: space-evenly;}
